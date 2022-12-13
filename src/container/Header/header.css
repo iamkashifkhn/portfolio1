@@ -1,0 +1,99 @@
+.portfolio__header{
+    display: flex;
+    flex-direction: row;
+}
+.portfolio__header-content{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-right: 5rem;
+}
+.portfolio__header-content h1{
+    color: #fff;
+    font-weight: 800;
+    font-size: 42px;
+    line-height: 48px;
+    letter-spacing: -0.04rem;
+    margin-bottom: 1rem;
+}
+.portfolio__header-content h1 span{
+    color: var(--button-bg);
+}
+.portfolio__header-content p{
+    font-size: 18px;
+    line-height: 32px;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+.portfolio__header-content button{
+    padding: 0.5rem 1rem;
+    background-color: var(--button-bg);
+    font-size: 20px;
+    line-height: 25px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+.portfolio__header-sociallinks span{
+    border: 1px solid var(--button-bg);
+    margin-right: 1rem;
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.portfolio__header-sociallinks span svg{
+color: var(--button-bg);
+padding-top: 5px;
+/* padding: 5px; */
+}
+.portfolio__header-sociallinks span:hover
+{
+    background-color: var(--button-bg);
+}
+.portfolio__header-sociallinks span svg:hover{
+    color: #000;
+    font-weight: bold;
+}
+.portfolio__header-image{
+    flex: 1;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+
+}
+.portfolio__header-image img{
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width:1050px) {
+    .portfolio__header{
+        flex-direction: column;
+    }
+    .portfolio__header-content{
+        margin: 0 0 3rem;
+    }
+}
+@media screen and (max-width: 650px){
+    .portfolio__header h1{
+        font-size: 32px;
+        line-height: 48px;
+    }
+    .portfolio__header-content p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+@media screen and (max-width: 490px) {
+    .portfolio__header h1{
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .portfolio__header p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+}

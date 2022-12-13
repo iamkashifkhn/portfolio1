@@ -1,0 +1,103 @@
+.portfolio__navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 6rem;
+}
+.portfolio__navbar-links{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.portfolio__navbar-logo {
+    margin-right: 2rem;
+}
+.portfolio__navbar-logo img {
+    width: 62px;
+}
+.portfolio__navbar-links_container{
+    display: flex;
+    flex-direction: row;
+}
+.portfolio__navbar-links_container p,
+.portfolio__navbar-menu_container p
+{
+    font-size: 16px;
+    line-height: 25px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    text-transform: capitalize;
+    margin: 0 2rem;
+    cursor: pointer;
+}
+.portfolio__navbar-links_container p a {
+    color: #fff;
+}
+.portfolio__navbar-cv-btn button,
+.portfolio__navbar-menu_cvbutton button
+{
+ padding: 0.5rem 1rem;
+ color: #fff;
+ font-size: 16px;
+ line-height: 25px;
+ border-radius: 5px;
+ border: none;
+ background-color: var(--button-bg);
+}
+.portfolio__navbar-menu {
+    position: relative;
+    display: none;
+    margin-left: 1rem;
+}
+.portfolio__navbar-menu_container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: end;
+    padding: 2rem;
+    background-color: var(--button-bg);
+    position: absolute;
+    top: 40px;
+    right: 0;
+    margin-top: 1rem;
+    min-width: 210px;
+    border-radius: 5px;
+    box-shadow: 0 0 5 rgba(0,0,0,0.2);
+}
+.portfolio__navbar-menu_container p{
+    margin: 1rem 0;
+}
+
+@media screen and (max-width: 1050px) {
+    .portfolio__navbar-links_container{
+        display: none;
+    }
+    .portfolio__navbar-menu{
+        display: flex;
+    }
+    .portfolio__navbar-cv-btn{
+        display: none;
+    }
+}
+@media screen and (max-width: 700px) {
+    .portfolio__navbar{
+        padding: 2rem 4rem;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .portfolio__navbar{
+        padding: 2rem;
+    }
+    .portfolio__navbar-cv-btn{
+        display: none;
+    }
+    .portfolio__navbar-menu_container{
+        top: 20px;
+    }
+    .portfolio__navbar-menu_cvbutton{
+        display: block;
+    }
+}

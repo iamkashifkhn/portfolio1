@@ -37,12 +37,17 @@
     cursor: pointer;
     margin-bottom: 2rem;
 }
+.portfolio__header-sociallinks{
+    display: flex;
+    flex-wrap: wrap;
+}
 .portfolio__header-sociallinks span{
     border: 1px solid var(--button-bg);
     margin-right: 1rem;
     padding: 5px;
     border-radius: 50%;
     cursor: pointer;
+    margin-bottom: 1rem;
 }
 .portfolio__header-sociallinks span svg{
 color: var(--button-bg);
@@ -74,7 +79,7 @@ padding-top: 5px;
         flex-direction: column;
     }
     .portfolio__header-content{
-        margin: 0 0 3rem;
+        margin: 0 0;
     }
 }
 @media screen and (max-width: 650px){
@@ -95,5 +100,10 @@ padding-top: 5px;
     .portfolio__header p{
         font-size: 14px;
         line-height: 24px;
+    }
+}
+@media screen and (max-width:368px) {
+    .section__padding{
+        padding: 2rem 2rem;
     }
 }

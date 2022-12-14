@@ -1,0 +1,29 @@
+.portfolio__project{
+    display: flex;
+    flex-direction: column;
+}
+.portfolio__project h1{
+    color: #fff;
+    margin-bottom: 2rem;
+}
+.portfolio__project p{
+    color: #fff;
+    margin-bottom: 2rem;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+    font-family: var(--font-family);
+}
+.portfolio__project-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+@media screen and (max-width: 700px) {
+    .portfolio__project-cards{
+        flex-direction: column;
+    }
+    .portfolio__project-cards .portfolio__project-card{
+        margin-right: 0;
+    }    
+}

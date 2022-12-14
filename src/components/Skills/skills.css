@@ -1,0 +1,30 @@
+.portfolio__skills h1{
+    font-weight: 600;
+    font-family: var(--font-family);
+    color: #fff;
+    margin-bottom: 2rem;
+}
+.portfolio__skills-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.portfolio__skills-cards span{
+    background-color: var(--color-footer);
+    border-radius: 5px;
+    display: flex;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+.portfolio__skills-cards span:hover{
+    transform: scale(1.1);
+}
+.portfolio__skills-cards span img{
+    padding: 20px;
+    width: 100px;
+}
+.portfolio__skills-cards span img:last-child{
+    width: 100px;
+}

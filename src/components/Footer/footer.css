@@ -1,0 +1,11 @@
+.portfolio__footer p{
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 22px;
+}
+.portfolio__footer p span{
+   color: var(--button-bg);
+}

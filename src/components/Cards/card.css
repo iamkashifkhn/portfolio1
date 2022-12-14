@@ -1,0 +1,28 @@
+.portfolio__card{
+    background-color: var(--color-footer);
+    border-radius: 5px;
+    cursor: pointer;
+    flex-wrap: wrap;
+    width: 30%;
+}
+.portfolio__card:hover{
+    box-shadow: 3px 4px 8px 0px #031B34;
+}
+.portfolio__card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.portfolio__card img{
+    width: 100px;
+    padding: 1rem;
+}
+.portfolio__card h4{
+    padding: 0 40px;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #fff;
+    letter-spacing: 1.4px;
+    line-height: 25px;
+}

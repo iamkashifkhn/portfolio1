@@ -1,0 +1,25 @@
+.portfolio__services-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.portfolio__services h1{
+    margin-bottom: 2rem;
+    color: #fff;
+}
+.portfolio__services p{
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 1050px) {
+    .portfolio__services-cards{
+        flex-direction: column;
+    }
+    .portfolio__services-cards .portfolio__card{
+        width: 80%;
+        margin-bottom: 2rem;
+    }
+}
+

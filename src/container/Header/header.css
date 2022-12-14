@@ -79,7 +79,7 @@ padding-top: 5px;
         flex-direction: column;
     }
     .portfolio__header-content{
-        margin: 0 0;
+        margin: 0 0 3rem;
     }
 }
 @media screen and (max-width: 650px){
@@ -91,6 +91,9 @@ padding-top: 5px;
         font-size: 16px;
         line-height: 24px;
     }
+    .section__padding{
+        padding: 2rem 2rem;
+    }
 }
 @media screen and (max-width: 490px) {
     .portfolio__header h1{
@@ -100,6 +103,9 @@ padding-top: 5px;
     .portfolio__header p{
         font-size: 14px;
         line-height: 24px;
+    }
+    .section__padding{
+        padding: 2rem 2rem;
     }
 }
 @media screen and (max-width:368px) {

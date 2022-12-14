@@ -14,12 +14,17 @@ function Navbar() {
           </div>
           <div className='portfolio__navbar-links_container'>
                 <p><a href='#home'>Home </a></p>
-                <p><a href='#projects'> Projects</a></p>
                 <p><a href='#about'> About </a></p>
+                <p><a href='#services'>Services</a></p>
+                <p><a href='#projects'> Projects</a></p>
                 <p><a href='#contact'>Contact</a></p>
           </div>
           <div className='portfolio__navbar-cv-btn'>
-              <button type='button'>Download CV</button>
+              <button type='button'>
+                <a href='https://drive.google.com/file/d/1RnWx1EOfPfGVsgUdJGB1xdQPx3ok8mgU/view?usp=share_link' target='_blank' rel='noreferrer'>
+                  Download CV
+                </a>
+              </button>
           </div>
           <div className='portfolio__navbar-menu'>
               {

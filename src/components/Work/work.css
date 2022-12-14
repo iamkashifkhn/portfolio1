@@ -1,0 +1,59 @@
+.portfolio__project-card{
+    display: flex;
+    flex-direction: column;
+    background: var(--color-footer);
+    margin-right: 50px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+}
+.portfolio__project-card_image{
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-bg);
+}
+.portfolio__project-card_image img{
+    width: 100%;
+    height: 100%;
+}
+.portfolio__project-card_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+    height: 100%;
+    color: #fff;
+}
+.portfolio__project-card_content  h4{
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+}
+.portfolio__project-card_content  p{
+    font-size: 12px;
+    line-height: 35px;
+    font-weight: 700;
+    font-family: var(--font-family);
+    margin-bottom: 0.5rem;
+}
+
+.portfolio__proejct-code_links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.portfolio__proejct-code_links svg{
+    color: var(--button-bg);
+}
+.portfolio__proejct-code_links p{
+    margin-left: 5px;
+    margin-top: 5px;
+    font-size: 12px;
+}
+.portfolio__proejct-code_links p a{
+    text-decoration: underline;
+    color: var(--button-bg);
+}

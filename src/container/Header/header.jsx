@@ -16,7 +16,7 @@ function home() {
             A web Developer
             </h1>
             <p>
-            A full time Frontend Developer and a part time chef at home who make sandwiches &#129386; for himself only.
+            A full time Frontend Developer and a part time chef at home who makes sandwiches &#129386; for himself only.
             </p>
             <button type='button'><a href='#contact'> Hire Me</a></button>
             <div className='portfolio__header-sociallinks'>

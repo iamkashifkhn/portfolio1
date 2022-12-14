@@ -12,6 +12,7 @@ function work(props) {
         <div className="portfolio__project-card_content">
             <h4>{props.text}</h4>
             <p>{props.subtext}</p>
+            <p>Tech: <span> {props.tech}</span></p>
             <div className="portfolio__proejct-code_links">
               <span><DiGithubAlt/></span>
               <p><a href={props.link} target='_blank' rel="noreferrer" > View Code </a></p>

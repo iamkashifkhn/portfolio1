@@ -10,7 +10,7 @@ function contacts() {
   return (
     <div className='portfolio__contacts section__padding' id='contact'>
       <h1> Contact with me</h1>
-      <p>Lets build something together :) </p>
+      <p>Lets build something together &#128523; </p>
       <div className='portfolio__contact-content'>
           <Card imageURL={Home} text='Islamabad, Pakistan'/>
           <Card imageURL={Phone} text='+92 305 6086871'/>

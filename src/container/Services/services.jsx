@@ -10,9 +10,11 @@ function services() {
   return (
     <div className="portfolio__services section__padding" id="services">
       <h1> Services I Provide </h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi libero fugit nulla earum fugiat dolor, iusto sequi totam, eius, placeat recusandae est assumenda quidem veritatis maiores quia minima nisi omnis?</p>
+      <p> I prodive responive web applications built in react.js. In addition I also provide datasets by scrapping websites. 
+        I also have experience in graphic designing and I also have helped startups by making creative designs to help their business.
+        </p>
       <div className="portfolio__services-cards">
-      <Card imageURL={Frontend} imageAlt='frontend' text="Frontend Developement" />
+      <Card imageURL={Frontend} imageAlt='frontend' text="Frontend Development" />
       <Card imageURL={Scrapping}  text="Web Scrapping" />
       <Card imageURL={Graphic}  text="Graphic Designing" />
       </div>

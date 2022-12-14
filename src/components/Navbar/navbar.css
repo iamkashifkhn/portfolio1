@@ -34,6 +34,9 @@
 .portfolio__navbar-links_container p a {
     color: #fff;
 }
+.portfolio__navbar-links_container p a:hover{
+    color: var(--button-bg);
+}
 .portfolio__navbar-cv-btn button,
 .portfolio__navbar-menu_cvbutton button
 {

@@ -26,16 +26,22 @@
     line-height: 32px;
     color: #fff;
     margin-bottom: 1rem;
+    letter-spacing: 0.1rem;
 }
 .portfolio__header-content button{
     padding: 0.5rem 1rem;
-    background-color: var(--button-bg);
+    background-color: transparent;
+    border: 1px solid var(--button-bg);
+    color: #fff;
     font-size: 20px;
     line-height: 25px;
     border-radius: 5px;
-    border: none;
     cursor: pointer;
     margin-bottom: 2rem;
+}
+.portfolio__header-content button:hover{
+    background-color: var(--button-bg);
+    transition-delay: 0.1s;
 }
 .portfolio__header-sociallinks{
     display: flex;

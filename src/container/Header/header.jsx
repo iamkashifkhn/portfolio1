@@ -16,15 +16,15 @@ function home() {
             A web Developer
             </h1>
             <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur est illum accusantium aperiam in, rerum molestis.
+            A full time Frontend Developer and a part time chef at home who make sandwhiches for himself only.
             </p>
-            <button type='button'> Hire Me</button>
+            <button type='button'><a href='#contact'> Hire Me</a></button>
             <div className='portfolio__header-sociallinks'>
-                <span><FaLinkedinIn/></span>
-                <span><AiOutlineMail/></span>
-                <span><FaFacebookF/></span>
-                <span><AiOutlineInstagram/></span>
-                <span><DiGithubAlt/></span>
+                <span><a href='https://www.linkedin.com/in/iamkashifkhan/' target='_blank' rel='noreferrer'><FaLinkedinIn/></a></span>
+                <span><a href='mailto:usmankashif544@gmail.com' target='_blank' rel='noreferrer'><AiOutlineMail/></a></span>
+                <span><a href='https://www.facebook.com/iamkashifkhn' target='_blank' rel='noreferrer'><FaFacebookF/></a></span>
+                <span><a href='https://www.instagram.com/iamkashifkhan/' target='_blank' rel='noreferrer'><AiOutlineInstagram/></a></span>
+                <span><a href='https://github.com/iamkashifkhn' target='_blank' rel='noreferrer'><DiGithubAlt/></a></span>
             </div>
         </div>
         <div className='portfolio__header-image'>

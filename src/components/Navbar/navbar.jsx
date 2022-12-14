@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import './navbar.css'
 import logo from '../../assets/logo.png'
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
-
+import Resume from '../../assets/Kashif Usman.pdf'
 function Navbar() {
   const [toggleMenu, setToggleMenu] = useState(false);
 
@@ -21,7 +21,7 @@ function Navbar() {
           </div>
           <div className='portfolio__navbar-cv-btn'>
               <button type='button'>
-                <a href='https://drive.google.com/file/d/1RnWx1EOfPfGVsgUdJGB1xdQPx3ok8mgU/view?usp=share_link' target='_blank' rel='noreferrer'>
+                <a href={Resume} download>
                   Download CV
                 </a>
               </button>

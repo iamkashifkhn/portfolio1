@@ -20,6 +20,7 @@
     color: #fff;
     font-weight: 600;
     margin-bottom: 1rem;
+    text-align: justify;
 }
 .portfolio__about-content h3 span{
     color: var(--button-bg);
@@ -27,10 +28,11 @@
 .portfolio__about-content p{
     color: #fff;
     font-family: var(--font-family);
-    font-size: 16px;
+    font-size: 14px;
     line-height: 24px;
     margin-bottom: 1rem;
     font-weight: 400;
+    text-align: justify;
 }
 .portfolio__about-content p:last-of-type{
     color: var(--button-bg);

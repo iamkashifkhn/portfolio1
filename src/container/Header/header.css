@@ -68,6 +68,8 @@
     border-radius: 50%;
     cursor: pointer;
     margin-bottom: 1rem;
+    padding-left: 7px;
+    min-width: 2rem;
 }
 .portfolio__header-sociallinks span svg{
 color: var(--button-bg);

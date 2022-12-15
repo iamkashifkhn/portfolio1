@@ -108,6 +108,10 @@
         top: 20px;
     }
     .portfolio__navbar-menu_cvbutton{
+        margin-top: -20px;
         display: block;
+    }
+    .portfolio__navbar-menu_cvbutton p a{
+        text-decoration: underline;
     }
 }

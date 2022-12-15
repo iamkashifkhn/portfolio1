@@ -13,7 +13,7 @@ import antdesign from '../../assets/antdesign.svg'
 function skills() {
   return (
     <div className='portfolio__skills section__padding'>
-            <h1>Tools and Technologies that is use</h1>
+            <h1>Tools and Technologies that I use</h1>
             <div className='portfolio__skills-cards'>
                 <span><img src={html} alt='html'/></span>
                 <span><img src={css} alt='css'/></span>

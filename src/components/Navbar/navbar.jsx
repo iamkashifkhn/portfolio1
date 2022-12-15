@@ -51,11 +51,11 @@ function Navbar() {
                     <p><a href='#contact'>Contact</a></p>
                     </div>
                     <div className='portfolio__navbar-menu_cvbutton'>
-                    <button type='button'>
+                    <p>
                         <a href={Resume} download>
                           Download CV
                         </a>
-                      </button>
+                      </p>
                     </div>
                   </div>
                 )

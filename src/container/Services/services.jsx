@@ -11,7 +11,7 @@ function services() {
     <div className="portfolio__services section__padding" id="services">
       <h1> Services I Provide </h1>
       <p> I prodive responive web applications built in react.js. In addition I also provide datasets by scrapping websites. 
-        I also have experience in graphic designing and I also have helped startups by making creative designs to help their business.
+        I also have experience in graphic designing and have helped startups by making creative designs to help their business.
         </p>
       <div className="portfolio__services-cards">
       <Card imageURL={Frontend} imageAlt='frontend' text="Frontend Development" />

@@ -18,6 +18,18 @@
     letter-spacing: -0.04rem;
     margin-bottom: 1rem;
 }
+.portfolio__header-type{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    height: 24px;
+}
+.portfolio__header-content h4{
+    font-size: 24px;
+    color: var(--button-bg);
+    font-family: var(--font-family);
+}
 .portfolio__header-content h1 span{
     color: var(--button-bg);
 }
@@ -26,7 +38,7 @@
     line-height: 32px;
     color: #fff;
     margin-bottom: 1rem;
-    letter-spacing: 0.1rem;
+    /* letter-spacing: 0.1rem; */
 }
 .portfolio__header-content button{
     padding: 0.5rem 1rem;

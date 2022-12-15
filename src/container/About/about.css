@@ -21,6 +21,8 @@
     font-weight: 600;
     margin-bottom: 1rem;
     text-align: justify;
+    line-height: 26px;
+    font-size: 18px;
 }
 .portfolio__about-content h3 span{
     color: var(--button-bg);

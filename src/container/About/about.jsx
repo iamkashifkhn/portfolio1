@@ -7,9 +7,9 @@ function about() {
     <div className='portfolio__about section__padding' id='about'>
         <div className='portfolio__about-content'>
             <h1>About Me </h1>
-            <h3> My name is <span>Kashif Usman</span> a Web Developer, Web Scrapper and Graphic Designer</h3>
+            <h3> My name is <span>Kashif Usman</span> I am a Web Developer, Web Scrapper and Graphic Designer</h3>
             <p>
-            As a react developer with 1 year of experience, I have a strong understanding 
+            As a react developer, I have a strong understanding 
             of JavaScript and the ability to develop and maintain user interfaces using the 
             React library. I have experience working with front-end technologies and am able 
             to create scalable, performant web applications that provide a seamless user experience. 
@@ -19,12 +19,10 @@ function about() {
             ways to improve my skills and knowledge.
             </p>
             <p>
-            I have a strong understanding of web scraping techniques and tools. 
-            I have experience Scrapy to extract data from websites and APIs. I am skilled 
-            at cleaning and organizing data, and I am proficient in using data analysis tools such 
-            as Pandas to manipulate and analyze large datasets. I am able to work 
-            independently and take ownership of my projects, and I am comfortable working in a 
-            team environment.
+            I am skilled at extracting, cleaning and organizing data, and I am proficient in using 
+            data analysis tools such as Pandas to manipulate and analyze large datasets. 
+            I am able to work independently and take ownership of my projects, 
+            and I am comfortable working in a team environment as well.
             </p>
         </div>
         <div className='portfolio__about-image'>

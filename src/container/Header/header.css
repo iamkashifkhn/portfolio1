@@ -26,9 +26,11 @@
     height: 24px;
 }
 .portfolio__header-content h4{
-    font-size: 24px;
+    font-size: 20px;
     color: var(--button-bg);
     font-family: var(--font-family);
+    padding-top: 8px;
+    padding-left: 5px;
 }
 .portfolio__header-content h1 span{
     color: var(--button-bg);
@@ -129,5 +131,10 @@ padding-top: 5px;
 @media screen and (max-width:368px) {
     .section__padding{
         padding: 2rem 2rem;
+    }
+    .portfolio__header-content h4{
+        font-size: 18px;
+        padding-top: 8px;
+        padding-left: 5px;
     }
 }

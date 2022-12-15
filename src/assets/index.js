@@ -1,0 +1,10 @@
+export {default as html} from './html.svg';
+export { default as css} from './css.svg'
+export { default as tailwind} from './tailwind.svg'
+export { default as bootstrap} from './bootstrap.svg'
+export { default as sass} from './sass.svg'
+export { default as javascript} from './javascript.svg'
+export { default as react} from './react.svg'
+export { default as scrapy} from './scrapy.png'
+export { default as antdesign} from './antdesign.svg'
+export { default as git} from './git.svg'

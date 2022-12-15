@@ -11,11 +11,13 @@
     flex-wrap: wrap;
     
 }
+
 .portfolio__skills-cards span{
     background-color: var(--color-footer);
     border-radius: 5px;
     display: flex;
-    margin-bottom: 2rem;
+    /* margin-bottom: 2rem; */
+    margin-top: 4rem;
     cursor: pointer;
 }
 .portfolio__skills-cards span:hover{

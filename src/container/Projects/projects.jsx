@@ -3,6 +3,7 @@ import './projects.css'
 import Card from '../../components/Work/work'
 import Portfolio from '../../assets/portfolio.PNG'
 import ComplyVantage from '../../assets/complyVantage.PNG'
+import AM from '../../assets/AM.png'
 
 function projects() {
   return (
@@ -11,12 +12,12 @@ function projects() {
         <p>Here are few samples of my previous work &#128525;</p>
           <div className='portfolio__project-cards'>
               <Card 
-              imageURL={Portfolio} 
+              imageURL={AM} 
               alt='card' 
-              text='SEA' 
-              link='https://github.com/iamkashifkhn/FYP-2' 
-              subtext='SEA is a web based application for students to share their resources at a single platform. SEA enables students to find scholarships and nearby tutors as well.'
-              tech='HTML5, SASS, React '
+              text='AM' 
+              link='https://github.com/iamkashifkhn/Assets-Management' 
+              subtext='AM is an Assets Management web based application with a purpose to maintain office assets record. It uses firebase as database and user authentication.'
+              tech='HTML5, CSS3, React, Firebase '
               />
               
               <Card 

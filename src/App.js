@@ -1,7 +1,7 @@
 import './App.css';
 import {Navbar, Skills, Footer} from './components'
 import {Header, Services, Projects, About, Contacts} from './container'
-
+import { FloatButton } from 'antd';
 
 function App() {
   return (
@@ -16,6 +16,7 @@ function App() {
         <Projects/>
         <Contacts/>
         <Footer/>
+        <FloatButton.BackTop />
     </div>
   );
 }

@@ -80,3 +80,7 @@ a{
             transform: translateY(-40px);
   }
 }
+.ant-float-btn-body{
+  background-color: var(--button-bg) !important;
+  border: none;
+}

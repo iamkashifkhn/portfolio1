@@ -5,9 +5,9 @@
     flex-wrap: wrap;
     width: 30%;
 }
-.portfolio__card:hover{
+/* .portfolio__card:hover{
     box-shadow: 3px 4px 8px 0px #031B34;
-}
+} */
 .portfolio__card-content{
     display: flex;
     flex-direction: column;
@@ -25,4 +25,8 @@
     color: #fff;
     letter-spacing: 1.4px;
     line-height: 25px;
+}
+.portfolio__card:hover{
+    transform: translateY(-10px);
+    transition: all 0.3s ease-in-out;
 }

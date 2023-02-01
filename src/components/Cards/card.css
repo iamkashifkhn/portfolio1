@@ -1,10 +1,10 @@
-.portfolio__card{
+/* .portfolio__card{
     background-color: var(--color-footer);
     border-radius: 5px;
     cursor: pointer;
     flex-wrap: wrap;
     width: 30%;
-}
+} */
 /* .portfolio__card:hover{
     box-shadow: 3px 4px 8px 0px #031B34;
 } */
@@ -26,7 +26,18 @@
     letter-spacing: 1.4px;
     line-height: 25px;
 }
-.portfolio__card:hover{
-    transform: translateY(-10px);
-    transition: all 0.3s ease-in-out;
+.app__header-info:hover{
+    transform: translateY(-1.1rem);
+    transition: all .5s ease-in-out;
+    /* cursor: pointer; */
+}
+.app__header-info{
+    background-color: var(--color-footer);
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
 }

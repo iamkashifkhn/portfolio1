@@ -1,6 +1,7 @@
 .portfolio__header{
     display: flex;
     flex-direction: row;
+    /* position: relative; */
 }
 .portfolio__header-content{
     display: flex;

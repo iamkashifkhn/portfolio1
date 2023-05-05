@@ -2,13 +2,22 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem 6rem;
+    padding: 1.5rem 6rem;
+    background-color: var(--color-bg);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+
 }
+
 .portfolio__navbar-links{
     flex: 1;
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    
+    
 }
 .portfolio__navbar-logo {
     margin-right: 2rem;
